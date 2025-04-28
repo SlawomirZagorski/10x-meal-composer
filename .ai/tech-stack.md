@@ -3,7 +3,7 @@ Frontend
 - TypeScript 5
 - Tailwind 4
 - Shadcn/ui
-- Next.js
+- Next.js 15
 
 Backend
 - Supabase

@@ -73,8 +73,9 @@ Kryteria akceptacji:
 ### US-006: Dodawanie nowego przepisu
 Opis: użytkownik na głównym ekranie może zainicjować dodanie nowego przepisu.
 Kryteria akceptacji:
-- użytkownik ma musi wprowadzić treść przepisu w pole tekstowe
-- użytkownik może wypełnić też opcjonalnie pole tesktowe uwag odnośnie składników, np. brak jakiegoś składnika lub wymuszenie użycia innego
+- kandydat na przepis generowany jest na podstawie dostosowania wprowadzonego przepisu do uwag odnośnie składników
+- użytkownik musi wprowadzić treść przepisu w pole tekstowe
+- użytkownik może wypełnić też opcjonalnie w dodatkowe pole tesktowe uwag odnośnie składników, np. brak jakiegoś składnika lub wymuszenie użycia innego
 - kliknięcie przycisku generowania wysyła zapytanie do Openrouter
 - system wyświetla co najmniej jednego kandydata w czasie do 10s
 - wyświetlana jest animacja lub komunikat ładowania

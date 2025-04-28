@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## CODING_PRACTICES
+
+### Guidelines for VERSION_CONTROL
+
+#### CONVENTIONAL_COMMITS
+
+- Follow the format: type(scope): description for all commit messages
+- Use consistent types (feat, fix, docs, style, refactor, test, chore) across the project
+- Define clear scopes based on {{project_modules}} to indicate affected areas
+- Include issue references in commit messages to link changes to requirements
+- Use breaking change footer (!: or BREAKING CHANGE:) to clearly mark incompatible changes
+- Write the description using a short, clear noun phrase (e.g., "feature addition", "cursor rules configuration")
+- Ensure proper English grammar and clarity in commit messages
+- Configure commitlint to automatically enforce conventional commit format
